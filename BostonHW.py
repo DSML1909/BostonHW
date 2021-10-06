@@ -13,7 +13,7 @@ from sklearn import datasets
 import plotly.express as px
 from sklearn.ensemble import RandomForestRegressor
 
-df = pd.read_csv(r"C:\Users\LocalAdmin\OneDrive\Documents\GitHub\dat-07-26\ClassMaterial\Unit3\data\housing.csv")
+df = pd.read_csv(r"C:\Users\LocalAdmin\OneDrive\Documents\GitHub\dat-07-26\Homework\Unit3\data\housing.csv")
 
 section = st.sidebar.radio('Application Section', ['Data Explorer', 
                                                    'Model Explorer'])
